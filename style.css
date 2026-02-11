@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+  height: 100vh;
+  background: linear-gradient(135deg, #ff9a9e, #fad0c4);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  text-align: center;
+}
+
+h1 {
+  color: #fff;
+  font-size: 2.5rem;
+}
+
+.buttons {
+  margin-top: 30px;
+  position: relative;
+  height: 100px;
+}
+
+button {
+  padding: 15px 30px;
+  font-size: 1.2rem;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+#yes {
+  background-color: #28a745;
+  color: white;
+}
+
+#no {
+  background-color: #dc3545;
+  color: white;
+  position: absolute;
+  left: 150px;
+}
+
+#message {
+  margin-top: 30px;
+  font-size: 2rem;
+  color: white;
+}
